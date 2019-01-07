@@ -15,3 +15,17 @@ const profile = {
 
 profile.setName('john doe');
 console.log(profile.firstName);
+
+
+// Difference between function declaration and function expression
+
+function funcDec(){
+  console.log('function declaration');
+}
+
+const funcExp = function(){
+  console.log('function Expression');
+}
+
+funcDec();
+console.log(funcExp());
