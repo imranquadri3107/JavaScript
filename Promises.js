@@ -21,3 +21,11 @@ promiseToClean.then(function(fromResolve){
 }).catch(function(fromReject){
   console.log('Room is '+ fromReject);
 })
+
+
+// Example 2
+
+showCircle(150, 150, 100).then(div => {
+  div.classList.add('message-ball');
+  div.append("Hello, world!");
+});
