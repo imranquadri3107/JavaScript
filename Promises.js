@@ -24,8 +24,13 @@ promiseToClean.then(function(fromResolve){
 
 
 // Example 2
+// If we want to fire all promise at once
+Promise.all([cleanRoom(), removeGarbage(), winIcecream()]).then(function(){ 
+  console.log('one of them is finished')
+});
 
-showCircle(150, 150, 100).then(div => {
-  div.classList.add('message-ball');
-  div.append("Hello, world!");
+// Example 3
+// it will console log even if one promise is fulfilled
+Promise.race([cleanRoom(), removeGarbage(), winIcecream()]).then(function(){
+  console.log('one of them is finished')
 });
