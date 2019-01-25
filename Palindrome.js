@@ -11,3 +11,10 @@ function isPalindrome(str){
   = true
 > isPalindrome('toyota')
   = false
+
+
+// Tab2
+
+function checkPalindrom(str) {
+    return str == str.split('').reverse().join('');
+}
