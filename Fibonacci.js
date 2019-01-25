@@ -1,5 +1,31 @@
 // Fibonacci
 
+/**
+ * @param {number} N
+ * @return {number}
+ */
+var fib = function (n){
+  if(n<=1){
+    return n;
+  }
+
+  var a =0, b=1, c=0;
+
+  //console.log(fib(2))
+
+  for(var i = 1; i<n; i++){
+    c = a+b;
+    a = b;
+    b = c;
+  }
+
+  return c;
+}
+
+fib(4);
+
+//////
+
 function fibo(n){
   var fibo = [0, 1];
   
