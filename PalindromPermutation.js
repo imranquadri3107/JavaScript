@@ -50,5 +50,4 @@ console.log(
   checkPerm('sos', 'os') === false,
   checkPerm('abc', 'abz') === false,
   checkPerm('restful', 'fluster') === true,
-  checkPerm('baab', 'bbba') === false
 );
