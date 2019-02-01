@@ -35,7 +35,7 @@ function reverse(str){
   return str.split(' ').reverse()
 }
 
-reverse('imran is a good boy')
+reverse('I am a Computer Science Graduate')
 
 
 
