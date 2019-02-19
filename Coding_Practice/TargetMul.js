@@ -12,3 +12,13 @@ function repeatStringNumTimes(str, num) {
 }
 
 repeatStringNumTimes("*", 50);
+
+
+// Solution 2
+
+function repeatStringNumTimes(str, num) {
+  // repeat after me
+return str.repeat(num);
+}
+
+repeatStringNumTimes("a", 50);
