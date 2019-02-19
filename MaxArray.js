@@ -7,7 +7,8 @@ function findMax(arr){
   }return max;
 }
 
-// findMax([1,3,5,3])
+findMax([1,3,5,3])
+output: 5
 
 
 function longestNum(arr){
@@ -20,3 +21,4 @@ function longestNum(arr){
 }
 
 longestNum([[1,3,5,3], [547,23,54]])
+Output: 5, 547
