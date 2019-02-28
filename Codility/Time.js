@@ -18,4 +18,4 @@ function solution(T){
   return(S);
 }
 
-solution(4600);
+console.log(solution(4600));
