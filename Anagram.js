@@ -8,4 +8,4 @@ function alphabetize(word) {
     word = word.join('');
     return word;
 }
-alphabetize('string')
+alphabetize('india')
