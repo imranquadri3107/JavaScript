@@ -12,7 +12,7 @@ function sum(){
 console.log(sum(2,3,5,6));
 
 
-// Tab2
+// Type 2 
 
 // Function to add all elements of an array
 
